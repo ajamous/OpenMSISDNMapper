@@ -1,0 +1,27 @@
+{
+  "name": "openmsisdnmapper",
+  "version": "1.0.0",
+  "description": "E.164 <-> E.212 Mapper for developers and communication service providers",
+  "main": "index.js",
+  "scripts": {
+    "test": "json-server --watch destinations.json --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajamous/OpenMSISDNMapper.git"
+  },
+  "keywords": [
+    "MSISDN",
+    "Number",
+    "Lookup"
+  ],
+  "author": "Ameed I Jamous",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/ajamous/OpenMSISDNMapper/issues"
+  },
+  "homepage": "https://github.com/ajamous/OpenMSISDNMapper#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
