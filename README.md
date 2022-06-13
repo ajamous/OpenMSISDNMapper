@@ -31,14 +31,15 @@ The data is provided in standard JSON responses and uses HTTP Status Codes to he
 ## Create The API
 
 - cd to the project path
-- Install json-server
+- Install required packages
 ```shell
-npm install -g json-server
+npm install -g 
 ```
-- Run the server 
+- Run the API server 
 
 ```shell 
 json-server --watch OpenMSISDNMapper.json 
+
 ```
 
 
