@@ -223,3 +223,16 @@ OpenMSISDN Mapper  data is provided in the hope that it will be useful, but WITH
 
 To keep this list error free and useful for everyone, We expect community members to create pull requests to contribute back improvements to the data set. Once a pull request is opened, project authors will run a verification using HLR to verify the updated data is correct before it's merged to the master branch.
 
+Submit your first contribuation
+
+1- Clone project `git clone https://github.com/ajamous/OpenMSISDNMapper/`
+2- Create a new branch by issuing the command: `git checkout -b new_branch`
+3- Create a new remote for the upstream repo with the command: `git remote add upstream https://github.com/ajamous/OpenMSISDNMapper/`
+4- Switch to the new branch `git checkout -b new_branch`
+5- edit  `OpenMSISDNMapper.json ` using your preferred text editor 
+6- Committing your changes `git commit -S -m "Dial Code Improvmenth"`
+7- push your changes ` git push -u origin new_branch`
+
+Once you push the changes to your repo, the Compare & pull request button will appear in GitHub. Click it and next Open a pull request by clicking the `Create pull request button`
+
+
