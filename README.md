@@ -12,7 +12,7 @@
 * [Using the API](#using-the-api)
 * [Getting Help](#getting-help)
 * [Warranty](#warranty)
-* [Contribuate](#contribuation)
+* [Contribution](#contribuation)
 
 ## Introduction
 
@@ -219,7 +219,7 @@ Help is provided by the community as soon as possible, you can open an issue her
 
 OpenMSISDN Mapper  data is provided in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-## Contribuation
+## Contribution
 
 To keep this list error free and useful for everyone, We expect community members to create pull requests to contribute back improvements to the data set. Once a pull request is opened, project authors will run a verification using HLR to verify the updated data is correct before it's merged to the master branch.
 
