@@ -47,7 +47,7 @@ json-server --watch OpenMSISDNMapper.json
 ## Using The API
 
 1. Now you can open http://localhost:8080/lookup to list all records
-2. Lookup a specific specific country E.164 & E.212 data http://localhost:8080/lookup?Country=EGYPT
+2. Lookup a specific country E.164 & E.212 data http://localhost:8080/lookup?Country=EGYPT
 3. Lookup a specific prefix_e164 data http://localhost:8080/lookup?prefix_e164=20
 4. Lookup a specific MCCMNC data http://localhost:8080/lookup?mccmnc_e212=60203
 5. Lookup a secondary MCCMNC data http://localhost:8080/lookup?mccmnc_secondary=1234
@@ -223,7 +223,7 @@ OpenMSISDN Mapper  data is provided in the hope that it will be useful, but WITH
 
 To keep this list error free and useful for everyone, We expect community members to create pull requests to contribute back improvements to the data set. Once a pull request is opened, project authors will run a verification using HLR to verify the updated data is correct before it's merged to the master branch.
 
-**Submit your first contribuation**
+**Submit your first contribution**
 
 1- Clone project `git clone https://github.com/ajamous/OpenMSISDNMapper/` .
 
