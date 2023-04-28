@@ -9,7 +9,6 @@ consumes:
   - "application/json"
 produces:
   - "application/json"
-
 paths:
   /lookup:
     get:
@@ -23,11 +22,11 @@ paths:
         - name: prefix_e164
           in: query
           description: "The E.164 prefix to lookup. Example: '20'."
-          type: integer
+          type: string
         - name: mccmnc_e212
           in: query
           description: "The E.212 MCCMNC code to lookup. Example: '60203'."
-          type: integer
+          type: string
         - name: mccmnc_secondary
           in: query
           description: "The secondary MCCMNC code to lookup. Example: '1234'."
@@ -55,14 +54,13 @@ paths:
               message:
                 type: "string"
                 example: "No results found for the given query."
-
 definitions:
   DialCode:
     type: "object"
     properties:
       prefix_e164:
-        type: "integer"
-        example: 202
+        type: "string"
+        example: "202"
         description: "The E.164 prefix."
       Country:
         type: "string"
@@ -73,8 +71,8 @@ definitions:
         example: "Mobile - Etisalat"
         description: "A brief description of the network type and operator."
       mccmnc_e212:
-        type: "integer"
-        example: 60203
+        type: "string"
+        example: "60203"
         description: "The E.212 MCCMNC code."
       mccmnc_secondary:
         type: "string"
